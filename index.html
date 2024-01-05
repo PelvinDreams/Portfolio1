@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="images/png">
+    <title>Portfolio</title>
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- GOOGLE FONTS (POPPINS & OUTFIT) -->
+    <link  href="htttps://fonts.googleapis.com/css2?family=Outfit:wght@600;700;
+    800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- ANIMATE ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+     <!-- box icon  link -->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+               <img src="images/logo.png" alt="Navbar Logo">
+            </a>
+            <ul class="nav__menu">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                 <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <div class="div__buttons">
+          <button class="nav__theme-btn"><i class="uil uil-moon"></i></button>
+          <button class="nav__toggle-open"><i class="uil uil-bars"></i></button>
+          <button class="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- END OF TAGS -->
+
+    <header>
+    <div class="container header__container">
+        <article class="header__image" data-aos="zoom-in-up" data-aos-delay="700">
+        <div><img src="images/header.jpg" alt="Header Image"></div>
+    </article>
+        <article class="hearder__content" data-aos="zoom-in-down">
+        <h4>Hi, I'm <span>Precious Uwem</span>. And I'll</h4>
+        <h1>Get your business<br>online the right way</h1>
+        <p>Are you looking for a professional developer, UI/UX designer,
+             Video editor to put your business online?
+            you've come to the right place! I've helped hundreds of business
+             owners bring their ideas back to life. Hire me today!</p>
+             <div class="header__cta">
+                <a href="#contact" class="btn primary">Hire me</a>
+                <a href="#projects" class="btn">Portfolio</a>
+             </div>
+            </article> 
+        <ul class="header__socials">
+            <li><a href="https://twitter.com" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
+            <li><a href="https://github.com" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+            <li><a href="https://dribbble.com" target="_blank"><i class="uil uil-dribbble"></i></a></li>
+        </ul>
+    </div>
+    </header>
+     <!-- END OF THE HEADER -->
+
+
+
+     <section class="about" id="about">
+        <div class="container about__container">
+            <div class="about__image">
+                <img src="images/about.jpg" alt="About Image">
+            </div>
+            <div class="about__details" data-aos="zoom-in-up" data-aos-delay="300">
+                <h1>About me</h1>
+                <div class="about__cards">
+                    <article class="about__card">
+                        <i uil uil-award-alt></i>
+                        <h4>Experience</h4>
+                        <small>3+ years</small>
+                    </article>
+                    <article class="about__card">
+                        <i uil uil-swatchbook></i>
+                        <h4>Projects</h4>
+                        <small>9+ completed</small>
+                    </article>
+                    <article class="about__card">
+                        <i uil uil-users-alt></i>
+                        <h4>Clients</h4>
+                        <small>60+ worldwide</small>
+                    </article>
+                </div>
+                <!-- <p>Building projects my clients love have always been my passions.
+                    Being in the web development industry for over 3 years and serving more
+                    than 40 happy clients worldwide, I'm motivated to do more!
+                </p> -->
+                <p>
+                    Hi, my name is Precious Uwem from Port-Harcourt, Nigeria. I'm a full-stack
+                    web developer || wordpress developer, UI/UX designer,
+                    Video edito with several years of experience
+                    building websites for business owners and organizanition. I have 
+                    experience in a variety of web development technologies such as
+                    HTML5, CSS, TAILWIND CSS, JAVASCRIPT, JQUERY, PHP, MySQL, NODE.JS,
+                    BOOTSTRAP, and Git version control. Additionally, i have a deep 
+                    understanding of the wordpress platform and its core technologies,
+                    including PHP, HTML, CSS, and JAVASCRIPT. I can create custom themes,
+                    plugins, and widgts from scratch, and I am well-versed in wordpress
+                    database structure and management. Check out my resume below!
+                </p>
+                <a href="images/resume.pdf" class="btn primary" download target="_blank">
+                    <i uil uil-download-alt></i>Download CV</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- END OF ABOUT -->
+
+     <section class="services" id="services">
+        <h1>Services</h1>
+        <p>The services I offer encompass a comprehensive range, catering to diverse needs.</p>
+        <div class="container services__container">
+            <ul class="services__left">
+                <li class="service__item frontend active">
+                    <span><i class="uil uil-desktop"></i></span>
+                    <div>
+                        <h3>Frontend</h3>
+                        <p>2 projects</p>
+                    </div>
+                </li>
+                <li class="service__item backend">
+                    <span><i class="uil uil-server"></i></span>
+                    <div>
+                        <h3>Backend</h3>
+                        <p>3 projects</p>
+                    </div>
+                </li>
+                <li class="service__item fullstack">
+                    <span><i class="uil uil-apps"></i></span>
+                    <div>
+                        <h3>Full-stack</h3>
+                        <p>4 projects</p>
+                    </div>
+                </li>
+            </ul>
+            <article class="services__right" data-aos="zoom-in-up" data-aos-delay="200">
+                <!-- <h3>Frontend Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Iusto quidem voluptatum fugiat modi eaque culpa voluptatem!</p>
+                     <p>
+                        asperiores. Quisquam eveniet quam quasi quaerat dolorum 
+                        consequuntur tempore cum. Eveniet vero voluptatibus velit
+                        orem ipsum dolor sit amet consectetur adipisicing elit.
+                     Iusto quidem voluptatum fugiat modi eaque culpa voluptatem
+                     </p>
+                     <p>
+                        orem ipsum dolor sit amet consectetur adipisicing elit.
+                     Iusto quidem voluptatum fugiat modi eaque culpa voluptatem
+                     </p> -->
+            </article>
+        </div>
+     </section>
+
+     <!-- END OF SERVICES -->
+
+
+     <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <p>I have recently completed and updated various projects for my clients, ensuring 
+            they are not only tailored to their specific needs but also optimized for sale. These projects showcase my commitment to delivering customized solutions that align with my clients'
+             objectives while incorporating elements that enhance marketability.</p>
+            <ul class="projects__categories">
+                <!-- when click this button all projects show {*} -->
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".frontend">Frontend</li> 
+                <li data-filter=".backend">Backend</li>
+                <li data-filter=".fullstack">Fullstack</li>
+            </ul>
+            <div class="container projects__container" data-aos="zoom-in-up">
+                <article class="project mix fullstack" data-order="1"> 
+                    <div class="project__image">
+                        <img src="images/project1.jpg" alt="Project Image 1">
+                    </div>
+                    <h3>Project One Title (Fullstack)</h3>
+                    <p> 
+                        tolak
+                        CREATIVE. POWERFUL.
+                        CUSTOMIZABLE.
+                        Building a website with the Tolak HTML
+                        Template is super fast and easy.</p>
+                     <div class="project__cta">
+                        <a href="https://bracketweb.com/tolak-html/index-one-page.html" class="btn sm primary" target="_blan ">Demo</a>
+                        <a href="https://github.com" class="btn sm primary" target="_blank">Github</a>
+                        </div>
+                    </article>
+                    <article class="project mix frontend" data-order="2">
+                        <div class="project__image">
+                            <img src="images/project2.jpg" alt="Project Image 2">
+                        </div>
+                        <h3>Project Two Title (Frontend)</h3>
+                        <p> Wallet & Banking
+                            HTML Mobile Template</p>
+                         <div class="project__cta">
+                            <a href="https://finapp.bragherstudio.com/" class="btn sm primary" target="_blan ">Demo</a>
+                            <a href="https://github.com" class="btn sm primary" target="_blank">Github</a>
+                            </div>
+                        </article>
+                        <article class="project mix backend" data-order="3">
+                            <div class="project__image">
+                                <img src="images/project3.jpg" alt="Project Image 3">
+                            </div>
+                            <h3>Project Three Title (Backend)</h3>
+                            <p> Welcome to Finwise Online Banking and Finance. It works too much faster loading speed and you can works too much comfortability. imroz create your website so much faster, use to use and Well Documented 
+                                Codes for your customization.</p>
+                             <div class="project__cta">
+                                <a href="https://html.bdevs.net/finwise-prev/insurance.html" class="btn sm primary" target="_blan ">Demo</a>
+                                <a href="https://github.com" class="btn sm primary" target="_blank">Github</a>
+                                </div>
+                            </article>
+                            <article class="project mix frontend" data-order="4">
+                                <div class="project__image">
+                                    <img src="images/project4.jpg" alt="Project Image 4">
+                                </div>
+                                <h3>Project Four Title (Frontend)</h3>
+                                <p> JuniorHome
+                                    Child Care Bootstrap4 HTML5 Template
+                                    A perfect Child Care template for Child Care websites. Nice and clean design.</p>
+                                 <div class="project__cta">
+                                    <a href="https://preview.hasthemes.com/junior/index-3.html" class="btn sm primary" target="_blan ">Demo</a>
+                                    <a href="https://github.com" class="btn sm primary" target="_blank">Github</a>
+                                    </div>
+                                </article>
+                                <article class="project mix frontend" data-order="5">
+                                    <div class="project__image">
+                                        <img src="images/project5.png" alt="Project Image 5">
+                                    </div>
+                                    <h3>Project Five Title (Frontend)</h3>
+                                    <p> Exquisite, artisanal designs to kickstart your project. It comes with
+                                        numerous arrangements and pre-made page outlines.</p>
+                                     <div class="project__cta">
+                                        <a href="http://talim-html.codebasket.xyz/dark/index-2.html" class="btn sm primary" target="_blan ">Demo</a>
+                                        <a href="https://github.com" class="btn sm primary" target="_blank">Github</a>
+                                        </div>
+                                    </article>
+                                    <article class="project mix backend" data-order="6">
+                                        <div class="project__image">
+                                            <img src="images/project6.webp" alt="Project Image 6">
+                                        </div>
+                                        <h3>Project Six Title (Backend)</h3>
+                                        <p> Friendkit.
+                                            Social Media UI Kit. v2.6.2</p>
+                                         <div class="project__cta">
+                                            <a href="https://friendkit.cssninja.io/navbar-v1-feed.html" class="btn sm primary" target="_blan ">Demo</a>
+                                            <a href="https://github.com" class="btn sm primary" target="_blank">Github</a>
+                                            </div>
+                                        </article>
+
+
+                        </div>
+                </section>
+
+                <!-- END OF PROJECTS -->
+
+
+                <section class="swiper" data-aos="zoom-out-up" data-aos-delay="300">
+                    <h1>What my clients say</h1>
+                    <p>This is  what my clients say about me  and my work</p>
+                    <div class="swiper-wrapper">
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            creative flair, and proficiency in video editing tools were evident in the final product.
+                            Pelvin is a skilled storyteller
+                             through visuals, enhancing the impact of our content
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/avatar1.jpeg" alt="Client One">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Miracle</h5>
+                                <small>Developer</small>
+                            </div>
+                        </div>
+                       </figure>
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            His in-depth knowledge of the platform, coupled with a keen eye for design, 
+                            resulted in a website that exceeded our expectations.
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/avatar2.jpg" alt="Client Two">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Leo</h5>
+                                <small>Accountant</small>
+                            </div>
+                        </div>
+                       </figure>
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            His proficiency in both front-end and back-end 
+                            technologies ensured a seamless and efficient website. 
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/avatar3.jpeg" alt="Client Three">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Mr Smith<h5>
+                                <small>Naval / front-end dev</small>
+                            </div>
+                        </div>
+                       </figure>
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            exhibited strong leadership qualities that positively influenced the entire team. Their ability to
+                             guide and inspire others, coupled with a strategic mindset
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/avatar4.jpg" alt="Client Four">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Aisha</h5>
+                                <small>Promter</small>
+                            </div>
+                        </div>
+                       </figure>
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            His consistently demonstrated a unique ability to think outside the 
+                            box and find creative solutions to complex challenges.
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/avatar5.jpg" alt="Client Five">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Sush</h5>
+                                <small>Influencer</small>
+                            </div>
+                        </div>
+                       </figure>
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            I had the pleasure of collaborating with Pelvin on a challenging project. 
+                            His excellent communication skills and collaborative approach
+                             significantly contributed to the success of our team.
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/avatar6.jpeg" alt="Client Six">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Victor</h5>
+                                <small>Graphics Designer</small>
+                            </div>
+                        </div>
+                       </figure>
+                       <figure class="swiper-slide">
+                        <figcaption>
+                            Having worked with PelvinDreams for several years, I can confidently say they bring a wealth of experience to any project. Their ability to adapt to new technologies and trends in web development and design is a testament to their
+                             dedication.
+                        </figcaption>
+                        <div class="swiper-client">
+                            <div class="swiper__client-avater">
+                                <img src="images/mr kingdom.JPG" alt="Client Seven">
+                            </div>
+                            <div class="swiper__client-details">
+                                <h5>Mr Kingdom</h5>
+                                <small>Data Analyst</small>
+                            </div>
+                        </div>
+                       </figure>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </section>
+
+            <!-- END OF TESTIMONIES -->
+
+
+
+            <section class="contact" id="contact">
+                <div class="container contact__container">
+                    <ul class="contact__list" data-aos="zoom-out-up" data-aos-delay="500">
+                         <li><a href="mailto:preciousuwem3@gmail.com" class="contact__list-item" target="_blank">
+                            <i class="uil uil-envelope"></i>
+                         </a></li>
+                         <li><a href="https://www.messenger.com/t/100090857771370" class="contact__list-item" target="_blank">
+                            <i class="uil uil-facebook-messenger-alt"></i>
+                         </a></li>
+                         <li><a href="https://wa.me/+2349060706339" class="contact__list-item" target="_blank">
+                            <i class="uil uil-whatsapp"></i>
+                         </a></li>
+                         <li><a href="tell:+2349060706339" class="contact__list-item" target="_blank">
+                            <i class="uil uil-phone"></i>
+                         </a></li>
+                    </ul>
+
+                    <form action="https://formsubmit.co/your@email.com" method="POST" 
+                    class="contact__form" data-aos="zoom-in-down" data-aos-delay="600">
+                        <input type="text" name="Name" placeholder="Full Name">
+                        <input type="email" name="Email" placeholder="Email Address">
+                        <textarea   rows="7" name="Message" placeholder="message"></textarea>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </section>
+
+
+
+            <footer>
+             <div class="container footer__container">
+                <ul class="footer__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="footer__socials">
+                    <li><a href="https://twitter.com" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
+                    <li><a href="https://github.com/PelvinDreams" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                    <li><a href="https://dribbble.com" target="_blank"><i class="uil uil-dribbble"></i></a></li>
+                </ul>
+             </div>
+             <div class="footer__copyright">
+                <small>2024 PRECIOUS UWEM &copy; All Rights Reserved</small>
+             </div>
+            </footer>
+               <!-- scroll btn -->
+     <a href="#" class="scroll-btn"><i class='bx bx-chevron-up'></i></a>
+    
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+     <script src="patrickkunka-mixitup-61dac05/dist/mixitup.min.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({duration: 1500, offset: 80});
+     </script>
+     <script src="mydata.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
