@@ -5,7 +5,7 @@ const servicesData = [
         category: "frontend",
         // descriptions are also arrays
         description: [
-            'I specialize in front-end development services, crafting visually appealing and user-centric interfaces. Leveraging my expertise in HTML, CSS, and JavaScript, I focus on creating seamless and engaging user experiences that align with the latest design trends and industry standards.'
+            'I specialize in front-end development services, crafting visually appealing and user-centric interfaces. Leveraging my expertise in HTML5, CSS, TailwindCSS, and JavaScript, I focus on creating seamless and engaging user experiences that align with the latest design trends and industry standards.'
         ]
     }, 
     {
